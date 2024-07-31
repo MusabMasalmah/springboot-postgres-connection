@@ -18,3 +18,16 @@ Go to https://start.spring.io/ , and do the following:
 
 ![image](https://github.com/user-attachments/assets/0e2df276-33b1-4c59-95ef-fbbffcc42865)
 
+
+## Configuring PostgreSQL
+
+To configure PostgreSQL for use with your Spring Boot application, follow these steps:
+
+### 1. Install PostgreSQL
+If you haven't already installed PostgreSQL, download and install it from [the PostgreSQL official website](https://www.postgresql.org/download/).
+
+### 2. Create a Database
+Once PostgreSQL is installed, you need to create a new database for your application.
+
+
+
