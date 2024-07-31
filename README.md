@@ -14,5 +14,7 @@ This project provides a step-by-step guide to integrating Spring Boot with Postg
 
 ## Setting Up the Project
 
+Go to https://start.spring.io/ , and do the following:
+
 ![image](https://github.com/user-attachments/assets/0e2df276-33b1-4c59-95ef-fbbffcc42865)
 
