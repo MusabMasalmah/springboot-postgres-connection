@@ -29,5 +29,8 @@ If you haven't already installed PostgreSQL, download and install it from [the P
 ### 2. Create a Database
 Once PostgreSQL is installed, you need to create a new database for your application.
 
+![image](https://github.com/user-attachments/assets/c1ae0e89-de68-4968-9825-6b5eada4fb32)
+
+
 
 
