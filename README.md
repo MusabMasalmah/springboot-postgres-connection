@@ -32,5 +32,22 @@ Once PostgreSQL is installed, you need to create a new database for your applica
 ![image](https://github.com/user-attachments/assets/c1ae0e89-de68-4968-9825-6b5eada4fb32)
 
 
+## Configuring PostgreSQL Connection
+
+Go to `src/main/resources/application.properties`
+
+![image](https://github.com/user-attachments/assets/0aecbf20-23c0-4de9-a48f-c63ad3ce2f8c)
+
+and add the following lines:
+
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/DATABASE_NAME
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
 
 
